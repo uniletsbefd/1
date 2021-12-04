@@ -1,0 +1,233 @@
+* {
+  color: white;
+  font-family: "Orbitron", sans-serif;
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  text-decoration: none;
+  align-items: center;
+  text-align: center;
+  justify-content: center;
+  font-size: 1em;
+  overflow-x: hidden;
+  scroll-behavior: smooth;
+  border: none;
+}
+
+#move {
+  overflow: hidden;
+  background: black;
+  font-size: 0.5em;
+  width: 15em;
+  height: 1.2em;
+  opacity: 0.5;
+  padding: 1em 1em 1em 1em;
+  border-radius: 0.5em;
+}
+
+.banner {
+  min-height: 130vh;
+  display: flex;
+  top: center;
+}
+
+#Home,
+#image_4 {
+  font-size: 5vh;
+  background: url(images/forest.png) center/cover scroll repeat-x;
+  animation: animation_3 60s linear infinite alternate;
+}
+
+#image_2,
+#image_3 {
+  background: url(images/VLgalaxy.gif) center/cover scroll no-repeat;
+}
+
+.menu {
+  position: fixed;
+  min-width: 30vw;
+  z-index: 1;
+}
+
+.dropdown {
+  display: none;
+  position: relative;
+}
+
+.menu a,
+.dropdown a,
+.titles {
+  display: block;
+  font-family: "Changa", sans-serif;
+  padding: 0.5vh 0 0.5vh 0;
+}
+
+#alert {
+  background-color: black;
+}
+
+div div a {
+  padding: 0.5em;
+  display: inline-block;
+  color: white;
+  margin: 0.5em;
+  background-color: grey;
+  border: double;
+  border-radius: 20%;
+}
+
+div div a:hover {
+  color: yellow;
+  transition: transform 1s;
+  transform: scale(0.8);
+}
+
+.box,
+#text_2,
+#text_6,
+#text_7 select {
+  color: black;
+  background-color: gainsboro;
+  width: 5.5em;
+  height: 1.5em;
+  font-size: 0.95em;
+  border-radius: 0.5em;
+}
+
+.row {
+  font-size: 0.95em;
+  height: 3vh;
+  left: 5vw;
+  right: 2vw;
+  color: ghostwhite;
+}
+
+.form {
+  background-color: white;
+  top: 13em;
+  width: 20em;
+  height: 35em;
+  border-radius: 10em;
+  display: inline-block;
+}
+
+.form:hover {
+  transition: transform 10s;
+  opacity: 0.7;
+}
+
+.submit {
+  background-color: red;
+  color: white;
+  width: 5.5em;
+  height: 1.5em;
+  font-size: 0.95em;
+  border-radius: 0.5em;
+}
+
+#text_1 {
+  padding: 1em;
+  font-size: 0.7em;
+  background-color: grey;
+  color: white;
+  display: inline-block;
+}
+
+.close {
+  margin-left: 1em;
+  color: palegreen;
+  font-weight: bold;
+  float: right;
+  font-size: 1.2em;
+  line-height: 1em;
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+#text_0 {
+  background: black;
+}
+
+.contents {
+  background: url("/images/uniletsbefd.png");
+  border-style: solid;
+  border-color: palegreen;
+  border-radius: 100vw;
+  white-space: pre;
+}
+
+iframe {
+  width: 70em;
+  height: 47em;
+}
+
+.form {
+  width: 16em;
+  background: white;
+  border-radius: 100vw;
+  white-space: pre;
+  text-shadow: 0 0.08em 0.08em grey;
+}
+
+svg {
+  padding: 1vh 1vh 1vh 1vh;
+  margin: 1vh;
+  width: 5vw;
+  background: lightyellow;
+  border: white;
+  border-style: solid;
+}
+
+.logo {
+  display: flex;
+}
+
+.animation_1 {
+  width: 5em;
+  position: relative;
+  animation-name: animation_1;
+  animation-iteration-count: infinite;
+  animation-duration: 5s;
+  animation-direction: alternate;
+}
+
+.animation_2 {
+  padding: 1vh;
+  animation-name: animation_2;
+  animation-iteration-count: infinite;
+  animation-duration: 10s;
+  animation-direction: alternate;
+}
+
+@keyframes animation_1 {
+  0% {
+    transform: scale(1);
+  }
+  100% {
+    transform: scale(1.2);
+  }
+}
+
+@keyframes animation_2 {
+  0% {
+    background: rgb(255, 255, 255);
+  }
+  100% {
+    background: rgb(0, 0, 0);
+  }
+}
+
+@keyframes animation_3 {
+  0% {
+    background-position: 0 0;
+    filter: blur(0);
+  }
+  100% {
+    background-position: 100% 0;
+    filter: blur(0);
+  }
+}
+
+.titles {
+  background: grey;
+}
