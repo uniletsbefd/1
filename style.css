@@ -149,7 +149,7 @@ div div a:hover {
 }
 
 .contents {
-  background: url("/images/uniletsbefd.png");
+  background: url(images/uniletsbefd.png);
   border-style: solid;
   border-color: palegreen;
   border-radius: 100vw;
